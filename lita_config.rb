@@ -1,7 +1,10 @@
 Lita.configure do |config|
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
-  config.robot.admins = ['joel', 'russo', 'shaun', 'lafarren']
+  config.robot.admins = [
+    'U039BR581',
+    'U039BS2KD'
+  ]
 
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
