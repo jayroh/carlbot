@@ -9,7 +9,7 @@ Lita.configure do |config|
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
   # Messages at the selected level and above will be logged.
-  config.robot.log_level = :info
+  config.robot.log_level = :debug
 
   config.redis[:url] = ENV['REDISTOGO_URL']
   config.http.port = ENV['PORT']
